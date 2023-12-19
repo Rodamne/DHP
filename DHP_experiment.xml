@@ -1,0 +1,124 @@
+
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The Digital Hypnerotomachia Project</title>
+				<respStmt>
+					<resp>Transcriptions and Text Encoding by </resp>
+					<name>Efthymia Priki</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Efthymia Priki</publisher>
+				<availability>
+					<p>This is an experimental version for a multi-edition of the Hypnerotomachia Poliphili prepared within the context of a master's thesis project (MA in Digital Humanities, Linnaeus University) under the supervision of Elisabet Göransson (Lund University).</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true">This experimental edition includes the title, subtitles and first sentences of the first chapter of the work in four different early modern versions: the original Italian 1499 Aldine edition; the two French translations of 1546 and 1600; and the 1592 English translation. </note>
+			</notesStmt>
+			<sourceDesc>
+				<p>Diplomatic editions of this text are based on transcriptions created by Efthymia Priki using Transkribus.</p>
+				<p>The English translation of the 1499 edition has been kindly provided by Ian White. The English translation of the French editions have been done by Efthymia Priki (improved using openAI)</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<listWit>
+					<witness xml:id="aldine">Hypnerotomachia Poliphili, 1499</witness>
+					<witness xml:id="kerver">Le Songe de Poliphile, 1546</witness>
+					<witness xml:id="english">The strife for love in a dreame, 1592</witness>
+					<witness xml:id="verville">Le tableau des riches inventions, 1600</witness>
+				</listWit>
+			</div>
+		</front>
+		<body>
+			<head>
+				<title>
+					<app>
+						<rdg wit="#aldine #kerver #english #verville">The Digital Hypnerotomachia Project: Chapter 1</rdg>
+					</app>
+				</title>
+			</head>	
+			<lg n="1">
+				<l n="1">
+					<app>
+						<rdg wit="#aldine">
+							<lb/>POLIPHILO INCOMINCIA LA SUA HYPNEROTOMACHIA AD DESCRIVERE ET L'HORA,ET IL TEMPO QUANDO GLI APPARVE IN SOMNO DI RITROVARSI IN UNA QUIETA ET SILENTE PIAGIA, DI CULTO DISERTA. D'INDI POSCIA DISAVEDUTO, CON GRANDE TIMORE INTRO IN UNA INVIA ET OPACA SILVA.
+							<lb/>HYPNEROTOMACHIA POLIPHILI.
+							<lb/>AVRORAE DESCRIPTIO.
+							<note type="gloss" anchored="true">
+								<lb/>POLIPHILO COMMENCES HIS HYPNEROTOMACHIA BY DESCRIBING THE HOUR AND THE SEASON WHEN IT SEEMED TO HIM, IN SLEEP, THAT HE FOUND HIMSELF IN A CALM AND SILENT COUNTRYSIDE, DESERTED OF HABITATION. THEN FROM THERE, UNAWARES, TO HIS GREAT ALARM HE GOT INTO A TRACKLESS DARK-SHADE WOOD.
+								<lb/>HYPNEROTOMACHIA POLIPHILI
+								<lb/>DESCRIPTION OF THE DAWN.
+							</note>
+							<note type="critical" anchored="true">
+								<p>TBC</p>
+							</note>
+						</rdg>
+						<rdg wit= "#kerver">
+							<lb/>LIVRE PREMIER.
+							<lb/>DU SOMMEIL QUI PRINT A POLIPHILE COMME IL LUY SEMBLA EN DORmant qu'il estoit en un pays desert, puis entroit en une forest obscure.
+							<note type="gloss" anchored="true">
+								<lb/>First Book.
+								<lb/>Of the sleep that seized Poliphile as it seemed to him while sleeping, that he was in a deserted land, then entering into a dark forest.
+							</note>
+						</rdg>
+						<rdg wit= "#english">
+							<lb/>The Author beginneth his Hypnerotomachia, to set downe the hower and time when in his sleepe it seemed to him that hee was in a quiet solitarie desart, and uninhabited plaine, and from thence afterward how he entered unadvisedly before he was aware, with great feare, into a darke obscure and unfrequented wood.
+							<lb/>The discription of the morning.
+						</rdg>
+						<rdg wit= "#verville">
+							<lb/>LES DISCOURS DU SONGE DE POLIPHILE
+							<lb/>LIVRE PREMIER.
+							<lb/>Poliphile estant endormi, songe, &amp; luy sembla qu'il estoit en la forest Noire
+							<lb/>CHAPITRE PREMIER.						
+							<note type="gloss" anchored="true">
+								<lb/>The Discourses of the Dream of Poliphile.
+								<lb/>First Book.
+								<lb/>Poliphile, being asleep, dreamed, and it seemed to him that he was in the Black Forest.
+								<lb/>First Chapter
+							</note>
+						</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<rdg wit="#aldine">
+							<lb/>PHOEBO IN QVEL HORA MANANdo, che la fronte di Matuta Leucothea candidava, fora gia dalle Oceane unde, le volubile rote sospese non dimonstrava, Ma sedulo cum gli sui volucri caballi. Pyroo primo, &amp; Eoo alquanto apparendo, ad dipingere le lycophe quadrige della figliola di vermigliante rose, velocissimo insequentila, non dimorava.Et corruscante gia sopra le cerulee &amp; inquiete undule, le sue irradiante come crispulavano.
+							<note type="gloss" anchored="true">
+								<lb/>Phoebus in that hour then streaming forth, when he was brightening white the forehead of Matuta Leucothea, out already from the ocean waves, the whirling wheels he did not show as held in suspense or hanging back, but busy, with his swift-winged horses, Pyrois first and Eous, somewhat now appearing, to paint the dawn-twilight four-in-hand chariot of his daughter (Aurora) with vermilion-tinting roses, very speedy following close upon her, he stayed no more to tarry; and coruscating now, already flickering, on the cerulean sky-blue restless ripples, his irradiating hairs (with wavelets combing) crisped in curls. 								
+							</note>
+						</rdg>
+						<rdg wit="#kerver">                     
+							<lb/>PAR un matin du moys d'Avril environ l'aube du iour, ie Poliphile estoie en mon lict, sans autre compagnie que de ma loiale garde Agrypnie, laquelle m'avoit entretenu toute celle nuict en plusieurs propoz, &amp; mis peine de me consoler: carie luy avoie declaré l'occasion de mes souspirs.
+							<note type="gloss" anchored="true">
+								<lb/>On a morning in the month of April, around the dawn of day, I, Poliphile, was in my bed, with no other company than my loyal companion Agrypnie, who had kept me company all that night with various words and made an effort to console me. For I had disclosed to her the cause of my sighs.
+							</note>
+						</rdg>
+						<rdg wit="#english">
+							<lb/>What houre as Phoebus(a) issuing foorth, did bewtifie with brightnesse the forhead of Leucothea(b), and appearing out of the Occean waves, not fully shewing his turning wheeles, that had beene hung up, but speedily with his swift horses Pyrous  &amp;  Eous, hastning his course and giving a tincture to the Spiders webbes, among the greene leaves and tender prickles of the Vermilion Roses , in the pursuite whereof he shewed himselfe most swift &amp; glistering, now upon the never resting and still mooving waves, he crysped up his irradient heyres.
+							<note type="critical" anchored="true">
+								<p>The 1592 English version also includes sidenotes on key names (Phoebus, Leucothea, Pyrois and Eous) appearing in the main text. These are indicated with the letters of the alphabet in ascending order.</p>
+							</note>
+						</rdg>
+						<rdg wit="#verville"> 
+							<lb/>FAISANT plusieurs desseins, ie remuois mes imaginations, &amp; me retournois en mon lict, sans repos, plein de continuelles inquietudes, ce que ie continuay long temps, &amp; mesmes iusques au point que le Soleil n'avoit pas encor assez avancé ny ses quatre chevaux ny son chariot pour reprendre la route à revenir sur nostre hemisphere:
+							<note type="gloss" anchored="true">
+								<lb/>Making various plans, I stirred my imaginations and turned in my bed without rest, full of constant uneasiness. I continued this for a long time, even until the point when the Sun had not yet sufficiently advanced, neither his four horses nor his chariot, to resume the journey back to our hemisphere.
+							</note>
+						</rdg>
+					</app>
+				</l>
+			</lg>
+
+
+		</body>
+	</text>
+</TEI>
